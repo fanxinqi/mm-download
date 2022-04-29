@@ -9,8 +9,8 @@ js文件下载器：解决a标签默认下载没法定制进度条等问题
 
 # api
  - constructor(downloadUrl: string, downloadName: string): 构造函数
- 	downloadUrl 下载链接
-	downloadName 下载文件名
+ 	-  downloadUrl 下载链接
+	- downloadName 下载文件名
  - start(): 开始下载
  - on("process", fn): 下载进度事件
  
