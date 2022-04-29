@@ -1,0 +1,19 @@
+{
+  "name": "mm-download",
+  "version": "0.0.1",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx webpack"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
