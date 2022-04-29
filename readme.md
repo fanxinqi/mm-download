@@ -6,6 +6,7 @@ js文件下载器：解决a标签默认下载没法定制进度条等问题
 
 - 文件下载
 - 进度通知
+- 兼容chrome、ie、Firefox
 
 # api
  - constructor(downloadUrl: string, downloadName: string): 构造函数
